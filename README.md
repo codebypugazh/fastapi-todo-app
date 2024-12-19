@@ -1,3 +1,12 @@
+# Todo app for learning FastAPI
+
+This is a todo application intended to learn FastAPI, using the following features and packages
+
+- SQLite as database
+- FastAPI Router
+- pydantic for validation
+- sqlalchemy as ORM
+
 ### 1. Create virtual environment
 
 ```bash
@@ -20,3 +29,9 @@ pip install -r requirements.txt
 ```bash
 uvicorn main:app --reload
 ```
+
+### 5. Swagger docs
+http://localhost:8000/docs
+
+### 6. Redocs
+http://localhost:8000/redocs
