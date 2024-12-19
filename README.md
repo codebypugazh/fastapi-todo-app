@@ -34,4 +34,4 @@ uvicorn main:app --reload
 http://localhost:8000/docs
 
 ### 6. Redocs
-http://localhost:8000/redocs
+http://localhost:8000/redoc
