@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+appenv/
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing
+.coverage
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.env.*
+*.env
+
+# Pyre type checker
+.pyre/
+
+# Mypy type checker
+.mypy_cache/
+
+# PyCharm
+.idea/
+*.iml
+workspace.xml
+tasks.xml
+scratches/
+.vscode/
+
+# Logs
+*.log
+*.out
+*.err
+
+# Local settings
+settings_local.py
+
+# FastAPI generated static files
+static/
+
+# Others
+*.bak
+*.swp
