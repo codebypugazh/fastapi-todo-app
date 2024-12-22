@@ -6,7 +6,10 @@ from sqlalchemy.orm import Session
 from models import Todos, Base
 from starlette import status
 
-router = APIRouter()
+router = APIRouter(
+    prefix="/todos",
+    tags=['todos']
+)
 
 def get_db():
     db = session_local()
